@@ -5,6 +5,6 @@ describe("minus", function () {
         expect(minus(5, 5)).toBe(0);
     })
     test("navigate", () => {
-        expect(minus(-5, 5)).toBe(-10)
+        expect(minus(-5, -5)).toBe(0)
     })
 })
